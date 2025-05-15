@@ -14,16 +14,24 @@ export default function Home() {
 
       {/* メインコンテンツ */}
       <main className="w-full flex flex-col items-center gap-12">
+        {/* 自己紹介 */}
+        <section id="about" className="w-full max-w-3xl mb-8">
+          <h2 className="text-xl font-semibold mb-2">About Me</h2>
+          <p className="text-gray-700">
+            はじめまして、大阪電気通信大学の4年でエンジニアを目指していて日々学習・開発を取り組んでいます。
+            大学は情報系を選考しており、プログラミングを通じて、
+          </p>
+        </section>
         {/* プロジェクトカード */}
         <section id="projects" className="w-full max-w-3xl">
           <h2 className="text-xl font-semibold mb-4">Projects</h2>
           <div className="grid gap-6 sm:grid-cols-2">
             <div className="border rounded-lg p-4 shadow hover:shadow-lg transition">
-              <h3 className="font-bold">Project 1</h3>
-              <p className="text-sm text-gray-600">プロジェクトの説明が入ります。</p>
+              <h3 className="font-bold">落とし物ステーション</h3>
+              <p className="text-sm text-gray-600">大学3年で立てたプロジェクトで落とし物をWebアプリ上で利用する</p>
             </div>
             <div className="border rounded-lg p-4 shadow hover:shadow-lg transition">
-              <h3 className="font-bold">Project 2</h3>
+              <h3 className="font-bold">チャットツール</h3>
               <p className="text-sm text-gray-600">プロジェクトの説明が入ります。</p>
             </div>
           </div>
